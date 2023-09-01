@@ -1,0 +1,29 @@
+.card-busca {
+  max-width: 320px;
+  background-color: var(--purple-100);
+  border-radius: 12px;
+  border: 1px solid #CAC4D0;
+  box-shadow: none;
+  button {
+    width: 100%;
+    margin: 0 16px 48px;
+    background: var(--purple-40);
+    color: var(--gray-90);
+    text-transform: uppercase;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    li {
+      margin: 12px;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 32px;
+      color: var(--gray-10);
+      text-align: center;
+    }
+    .preco{
+      color: var(--gray-20);
+    }
+  }
+}

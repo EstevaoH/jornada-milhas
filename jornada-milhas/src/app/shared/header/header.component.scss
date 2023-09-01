@@ -1,0 +1,21 @@
+.app-header {
+  background-color: var(--gray-10);
+  color: var(--gray-90);
+
+  button {
+    margin: 0 16px;
+  }
+
+  .spacer {
+    flex: 1 1 auto;
+  }
+
+  .mat-toolbar {
+    background-color: var(--gray-10);
+    color: var(--gray-90);
+  }
+
+  .mat-mdc-outlined-button:not(:disabled) {
+    border-color: var(--gray-90);
+  }
+}

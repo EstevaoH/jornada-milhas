@@ -1,0 +1,54 @@
+/* You can add global styles to this file, and also import other style files */
+
+:root {
+  --purple-10: #21005d;
+  --purple-40: #6750a4;
+  --purple-80: #d0bcff;
+  --purple-90: #eaddff;
+  --purple-100: #fef7ff;
+
+  --purple-dark-10: #1d192b;
+  --purple-dark-40: #625b71;
+  --purple-dark-90: #ccc2dc;
+  --purple-dark-100: #e8def8;
+
+  --red-10: #410e0b;
+  --red-40: #b3261e;
+  --red-90: #efb8c8;
+  --red-100: #f9dedc;
+
+  --orage: #ff9431;
+
+  --gray-10: #1d1b20;
+  --gray-20: #49454f;
+  --gray-30: #79747e;
+  --gray-40: #cac4d0;
+  --gray-50: #e6e0e9;
+  --gray-60: #ece6f0;
+  --gray-70: #f3edf7;
+  --gray-80: #f7f2fa;
+  --gray-90: #f5f5f5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+.card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 1rem;
+  margin-bottom: 2.5rem;
+}
+.mat-mdc-dialog-container .mdc-dialog__surface {
+  border-radius: 16px !important;
+}

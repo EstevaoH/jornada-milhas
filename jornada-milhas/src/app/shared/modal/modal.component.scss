@@ -1,0 +1,33 @@
+.modal {
+  border: 1px solid #1D1B20;
+  max-width: 100%;
+  padding: 2rem;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  h1 {
+    font-size: 32px;
+    padding: 12px;
+  }
+  .selecao-idade {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    
+  }
+  .selecao-categoria {
+    margin-top: 32px;
+    color: #1D1B20;
+  }
+  .modal-actions {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    flex-wrap: nowrap;
+    button {
+      text-transform: uppercase;
+      margin: 0 8px;
+      width: 100%;
+    }
+  }
+}

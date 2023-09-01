@@ -1,0 +1,33 @@
+.form-busca {
+  margin: 2.5rem 0;
+  display: block;
+  .flex-container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 1rem 0;
+  }
+  .input-container {
+    margin-bottom: -1.25em;
+  }
+  .mat-button-toggle-checked {
+    background-color: var(--gray-80);
+  }
+  h2 {
+    color: var(--gray-10);
+    font-size: 2rem;
+    margin-bottom: 1.25rem;
+  }
+  mat-chip {
+    .inner {
+        overflow: visible;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        cursor: pointer;
+    }
+}
+  .buscar{
+    padding: 0.625rem 1.5rem;
+  }
+}
